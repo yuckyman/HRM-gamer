@@ -1,0 +1,11 @@
+{
+  "name": "PokemonMysteryDungeonRedRescueTeam-GBA",
+  "system": "GBA",
+  "core": "mGBA",
+  "buttons": ["UP", "DOWN", "LEFT", "RIGHT", "A", "B", "L", "R", "START", "SELECT"],
+  "hashes": {
+    "sha1": "TBD",
+    "md5": "TBD"
+  },
+  "notes": "Place your ROM in RetroArch content directories. Hashes will be validated by stable-retro if configured."
+}

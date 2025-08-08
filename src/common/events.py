@@ -1,0 +1,6 @@
+NEW_FLOOR = "new_floor"
+TOOK_DAMAGE = "took_damage"
+ENEMY_ADJACENT = "enemy_adjacent"
+STAIRS_VISIBLE = "stairs_visible"
+LOW_HP = "low_hp"
+NO_PROGRESS = "no_progress"
