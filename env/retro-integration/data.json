@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "hp": {"offset": "TBD", "size": 2},
+    "hp_max": {"offset": "TBD", "size": 2},
+    "pos_x": {"offset": "TBD", "size": 1},
+    "pos_y": {"offset": "TBD", "size": 1}
+  },
+  "map": {
+    "floor": {"offset": "TBD", "size": 1}
+  },
+  "flags": {
+    "in_menu": {"offset": "TBD", "size": 1},
+    "stairs_visible": {"offset": "TBD", "size": 1}
+  }
+}
