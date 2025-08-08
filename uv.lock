@@ -77,6 +77,11 @@ dev = [
     { name = "pytest" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "gymnasium", specifier = "==0.29.1" },
@@ -89,6 +94,9 @@ requires-dist = [
     { name = "typing-extensions", specifier = "==4.12.2" },
 ]
 provides-extras = ["dev"]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = "==8.2.2" }]
 
 [[package]]
 name = "iniconfig"
