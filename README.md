@@ -17,14 +17,14 @@ See `FOR_HUMAN.md` for detailed setup, env vars, and running instructions.
 
 ## Quickstart (mock mode)
 ```bash
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+# with uv
+uv sync
 python -m src.app --mock
 ```
 
 ## Tests
 ```bash
-pytest -q
+uv run pytest -q
 ```
 
 Legal: You must supply your own legally dumped ROM. Integration files reference ROM hashes for environment loading. Do not commit ROMs.

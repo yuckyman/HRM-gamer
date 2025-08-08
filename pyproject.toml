@@ -1,0 +1,32 @@
+[project]
+name = "hrm-gamer"
+version = "0.1.0"
+description = "Hierarchical agent for Pokémon Mystery Dungeon (GBA) with fast/slow streams"
+readme = "README.md"
+requires-python = "==3.11.*"
+license = { text = "MIT" }
+authors = [
+  { name = "HRM-gamer" }
+]
+
+dependencies = [
+  "gymnasium==0.29.1",
+  "numpy==1.26.4",
+  "opencv-python==4.10.0.84",
+  "pydantic==2.7.1",
+  "rich==13.7.1",
+  "tenacity==8.2.3",
+  "typing-extensions==4.12.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.2.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
